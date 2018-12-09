@@ -1,0 +1,14 @@
+{
+    "name": "htl3r/qr-code-demo",
+    "description": "A demo package for qr codes",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Maximilian Groß",
+            "email": "maximilian@elektro-gross.at"
+        }
+    ],
+    "require": {
+        "endroid/qr-code": "^3.5"
+    }
+}
