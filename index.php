@@ -31,13 +31,13 @@ $qrCode->setValidateResult(false);
 $qrCode->setWriterOptions(['exclude_xml_declaration' => true]);
 
 // Directly output the QR code
-header('Content-Type: '.$qrCode->getContentType());
+//header('Content-Type: '.$qrCode->getContentType());
 echo $qrCode->writeString();
 
 // Save it to a file
 $qrCode->writeFile(__DIR__.'/qrcode.png');
 
 // Create a response object
-$response = new QrCodeResponse($qrCode);
+//$response = new QrCodeResponse($qrCode);
 
 ?>
